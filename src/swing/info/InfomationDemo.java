@@ -67,7 +67,7 @@ public class InfomationDemo {
 		pnAddress.setLayout(new FlowLayout());
 		JLabel lbAddress = new JLabel("Address: ");
 		txtAddress = new JTextArea(5, 20);
-//		Auto xuống dòng khi hết cột cho 
+//		Auto xuá»‘ng dÃ²ng khi háº¿t cá»™t cho 
 		txtAddress.setLineWrap(true);
 		txtAddress.setWrapStyleWord(true);
 		JScrollPane sp = new JScrollPane(txtAddress,
